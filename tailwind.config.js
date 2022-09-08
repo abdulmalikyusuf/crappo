@@ -16,13 +16,24 @@ module.exports = {
         'accent': '#3671E9',
         'grey': '#828282',
         'grey5': '#E0E0E0',
+        'lightText': '#F2F2F2',
+        'lightBlue': '#8FFFBE',
+        'darkBlue': '#4610AD',
         'gradientStart': 'rgba(255, 255, 255, 0.16)',
-        'gradientStop': 'rgba(255, 255, 255, 0)'
+        'gradientStop': 'rgba(255, 255, 255, 0)',
       },
       fontFamily: {
         'Rubik': ['Rubik', 'sans-serif'],
       },
+      spacing: {
+        '120': '120px',
+      },
+      backgroundImage: {
+        'profit': "url('/src/assets/Profit.svg')"
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
