@@ -59,15 +59,15 @@ function Features() {
                     <Chart className="w-full h-full"/>
                     </div>
                 </div>
-                <div className="flex justify-around lg:justify-between space-x-8 lg:mx-14">
-                    <div className="flex flex-col space-y-4 rounded-2xl bg-card backdrop-blur-[250px] py-6 px-4 w-fit h-fit -translate-y-1/3">
-                        <p className="font-semibold text-lg">Increase in Trade</p>
-                        <h1 className="font-bold text-2xl">+75%<ArrowUpIcon className="h-4 w-4 inline-flex place-self-center ml-2 text-red-500"/></h1>
-                        <p className="text-[#F2F2F2]">Sell option</p>
+                <div className="flex justify-between space-x-4lg: space-x-8 mx-10 lg:mx-14">
+                    <div className="flex flex-col lg:space-y-4 rounded-2xl bg-card backdrop-blur-[250px] p-2 lg:py-6 lg:px-4 w-fit h-fit -translate-y-1/3">
+                        <p className="font-medium lg:font-semibold lg:text-lg">Increase in Trade</p>
+                        <h1 className="text-sm lg:font-bold lg:text-2xl">+75%<ArrowUpIcon className="h-4 w-4 inline-flex place-self-center ml-2 text-red-500"/></h1>
+                        <p className="text-xs lg:text-base text-[#F2F2F2]">Sell option</p>
                     </div>
-                    <div className="flex flex-col space-y-4 rounded-2xl bg-card backdrop-blur-[250px] py-4 px-11 w-fit h-fit -translate-y-1/2">
-                        <h1 className="font-bold text-2xl">$15.32</h1>
-                        <p className="text-[#F2F2F2]">Price in dollar</p>
+                    <div className="flex flex-col lg:space-y-4 rounded-2xl bg-card backdrop-blur-[250px] p-2 lg:py-6 lg:px-4 w-fit h-fit -translate-y-1/2">
+                        <h1 className="font-medium lg:font-bold lg:text-2xl">$15.32</h1>
+                        <p className="text-xs lg:text-base text-[#F2F2F2]">Price in dollar</p>
                     </div>
                 </div>
             </div>
