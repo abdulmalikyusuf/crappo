@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className="pt-2 lg:pt-8 14">
 			<Navigation/>
-			<div className="flex flex-col md:items-center md:justify-between md:flex-row mt-120">
+			<div className="flex flex-col md:items-center md:justify-between md:flex-row mt-14">
 				<div className="md:w-1/2 font-thin text-xs lg:font-medium">
 					<div className="flex items-center space-x-6 w-fit rounded-full bg-opacity-10 bg-white text-white p-1 pr-3">
 						<p className="bg-white py-1 px-4 text-black rounded-full">75% SAVE</p>
@@ -27,7 +27,7 @@ function Header() {
 				<div className="">
 					{/* <div className="z-10 h-[997.88px] absolute opacity-5 bg-white w-[120px] -rotate-[120deg]"></div> */}
 					{/* <div className="z-10 h-[997.88px] absolute opacity-5 bg-white w-[120px] translate-x-[28rem] -rotate-[120deg]"></div> */}
-					<Illustration className="z-30 w-96 h-96 lg:w-full lg:h-full"/>
+					<Illustration className="z-30 w-full md:w-96 h-96 lg:w-full lg:h-full"/>
 				</div>
 
 			</div>

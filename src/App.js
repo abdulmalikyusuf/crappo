@@ -13,7 +13,7 @@ import Investments from './pages/Investments';
 
 function App() {
   return (
-	<div className="bg-main min-h-screen px-4 lg:px-24 xl:px-32 text-white font-Rubik">
+	<div className="bg-main min-h-screen px-2 sm:px-4 lg:px-24 xl:px-32 text-white font-Rubik">
 		<Header/>
 		<Proposition/>
 		<Calculator/>

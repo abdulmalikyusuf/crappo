@@ -8,7 +8,7 @@ import {ReactComponent as Caretup } from "../assets/Caretup.svg"
 
 function Investments() {
   return (
-    <div className="bg-secondary lg:-mx-32 px-4 lg:px-32 pt-24">
+    <div className="bg-secondary lg:-mx-32 px-4 lg:px-32 pt-14">
         <div className="grid grid-flow-row md:grid-cols-2">
             <div className="w-4/5">
                 <h1 className="font-medium lg:font-bold text-2xl lg:text-[32px] lg:leading-[48px]">Grow your profit and track your investments</h1>

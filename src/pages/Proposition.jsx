@@ -21,7 +21,7 @@ function Proposition() {
 	  }
 
   return (
-	  <div className='pbc-80 mt-120'>
+	  <div className='mt-14'>
 			<motion.ul initial="hidden" whileInView="show" variants={container} className="flex flex-col lg:flex-row items-center lg:justify-between space-y-10 lg:space-y-0">
 				<motion.li variants={container} className="flex space-x-2 lg:space-x-6 items-start">
 					<span className="p-2 md:p-4 2xl:p-5 bg-opacity-10 bg-white rounded-full text-royal-blue">

@@ -5,7 +5,7 @@ import {ReactComponent as Statistic} from "../assets/Statistic.svg"
 
 function Statistics() {
   return (
-    <div className="bg-secondary lg:-mx-32 px-4 pb-20 z-20">
+    <div className="bg-secondary lg:-mx-32 px-4 pt-14 z-20">
         <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="">
                 <Statistic className="w-full h-full"/>

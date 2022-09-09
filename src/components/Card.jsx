@@ -4,7 +4,7 @@ import {ChevronRightIcon} from "@heroicons/react/24/outline"
 
 function Card({ index, isActive, setActive, title, shortCode, text, icon}) {
   return (
-    <div className={`flex flex-col items-center py-12 px-6 ${isActive? "bg-secondary backdrop-blur-3xl": "bg-white text-black"} rounded-2xl text-center`}>
+    <div className={`flex flex-col items-center py-12 px-6 max-w-[350px] ${isActive? "bg-secondary backdrop-blur-3xl": "bg-white text-black"} rounded-2xl text-center`}>
         {icon}
         <div className="flex items-center space-x-2 mt-12">
             <h3 className="text-lg lg:text-[32px] lg:leading-[48px] font-medium lg:font-bold">{title}</h3><span className="text-lg font-medium text-gray-500">{shortCode}</span>

@@ -17,7 +17,7 @@ function Profit() {
         }
       };
     return (
-        <motion.div className="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] lg:-mx-32 py-120 px-4 lg:px-32" initial="offscreen" whileInView="onscreen">
+        <motion.div className="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] lg:-mx-32 py-14 px-4 lg:px-32" initial="offscreen" whileInView="onscreen">
             <motion.div className="bg-[#3671E9] mxx-32 rounded-2xl p-6 lg:p-12" variants={cardVariants}>
                 <div className="bg-profit bg-no-repeat bg-left-top bg-blend-lighten bg-origin-padding">
                     <div className="flex flex-col lg:flex-row justify-between items-center z-90">
